@@ -4,9 +4,7 @@ export const depositMoney=(amount)=>{
             type: 'deposit',
             payload: ''
         })
-
     }
-
 }
 export const withdrawMoney=(amount)=>{
     return (dispatch)=>{
@@ -16,5 +14,4 @@ export const withdrawMoney=(amount)=>{
         })
 
     }
-
 }
